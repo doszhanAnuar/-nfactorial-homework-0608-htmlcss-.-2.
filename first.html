@@ -2,33 +2,13 @@
 <html lang="en">
 <head>
   <title>Music Player</title>
-  <link rel="stylesheet" type="text/css" href="  first.css">
+  <link rel="stylesheet" type="text/css" href="first.css">
 </head>
 
 
 
 
 <body>
-  <!-- <div class="background">
-    <video  id="video-bg"  width = 100% muted style="z-index: -1;">
-      <source src="./Bayan.mp4"><source>
-      </video>
-    <img src="./nurlan.jpeg" id="albom" />
-    <img src="./icons8-play-48.png" onclick="playPause()" id="play-pause" />
-    <div class="container" id = "container">
-      <div class = "header">
-        
-      </div>
-      <div class ="center">
-        <div>
-          <div class = "video_music" id = "video_music" onclick="PlayMusic()">
-            <i class="fa-solid fa-music"></i>
-          </div>
-          <audio src = "./bayan.mp3" id = "audio"></audio>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <video  id="background"  width = 100% muted >
     <source src="./Bayan.mp4"><source>
     </video>
@@ -45,17 +25,7 @@
   
 
   <script>
-    // const videoBack = document.getElementById("video_bg");
-    // const btnBack = document.getElementById("btn-ez");
-    // function PlayVideo(){
-    //   if(videoBack.paused){
-    //     videoBack.play();
-    //     btnBack.style.backgroundColor = 'black';
-    //   }else {
-    //     videoBack.paused();
-    //     btnBack.style.backgroundColor = 'transparent';
-    //   }
-    // }
+    
     const background_m = document.querySelector("#background"); 
     const thumbnail = document.querySelector('#albom'); 
     const song = document.querySelector('#song');
